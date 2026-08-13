@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Jailbreak Store</string>
+			<key>PayloadDescription</key>
+			<string>This will install the web clip for the jailbreak store to install apps via profile.</string>
+			<key>PayloadIdentifier</key>
+			<string>com.replit.strict-ios-features.restrictions</string>
+			<key>PayloadOrganization</key>
+			<string>Personal iPhone Configuration</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>F7B4E60C-3A4B-4DBA-9EB7-1D1B0B4A7E28</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+
+			<!-- Communication and hardware -->
+			<key>allowCamera</key>
+			<false/>
+			<key>allowVideoConferencing</key>
+			<false/>
+			<key>allowAirDrop</key>
+			<false/>
+			<key>allowBluetoothModification</key>
+			<false/>
+			<key>allowFilesUSBDriveAccess</key>
+			<false/>
+			<key>allowAutoUnlock</key>
+			<false/>
+			<key>allowAssistantUserGeneratedContent</key>
+			<false/>
+
+			<!-- Browser and capture -->
+			<key>allowSafari</key>
+			<false/>
+			<key>allowSafariPrivateBrowsing</key>
+			<false/>
+			<key>allowScreenShot</key>
+			<false/>
+			<key>allowScreenRecording</key>
+			<false/>
+
+			<!-- App installation and purchases -->
+			<key>allowAppInstallation</key>
+			<false/>
+			<key>allowAppRemoval</key>
+			<false/>
+			<key>allowInAppPurchases</key>
+			<false/>
+			<key>allowMarketplaceAppInstallation</key>
+			<false/>
+			<key>allowWebDistributionAppInstallation</key>
+			<false/>
+			<key>allowEnterpriseAppTrust</key>
+			<false/>
+			<key>allowUIAppInstallation</key>
+			<false/>
+			<key>allowUIConfigurationProfileInstallation</key>
+			<false/>
+
+			<!-- Siri and content -->
+			<key>allowAssistant</key>
+			<false/>
+			<key>allowAssistantWhileLocked</key>
+			<false/>
+			<key>allowExplicitContent</key>
+			<false/>
+			<key>allowBookstoreErotica</key>
+			<false/>
+
+			<!-- Apple media services -->
+			<key>allowMusicService</key>
+			<false/>
+			<key>allowNews</key>
+			<false/>
+			<key>allowPodcasts</key>
+			<false/>
+			<key>allowBookstore</key>
+			<false/>
+			<key>allowRadioService</key>
+			<false/>
+
+			<!-- Cloud and account changes -->
+			<key>allowAccountModification</key>
+			<false/>
+			<key>allowCloudBackup</key>
+			<false/>
+			<key>allowCloudDocumentSync</key>
+			<false/>
+			<key>allowCloudPhotoLibrary</key>
+			<false/>
+			<key>allowCloudKeychainSync</key>
+			<false/>
+			<key>allowCloudPrivateRelay</key>
+			<false/>
+			<key>allowManagedAppsCloudSync</key>
+			<false/>
+			<key>allowActivityContinuation</key>
+			<false/>
+
+			<!-- Gaming -->
+			<key>allowGameCenter</key>
+			<false/>
+			<key>allowMultiplayerGaming</key>
+			<false/>
+			<key>allowAddingGameCenterFriends</key>
+			<false/>
+
+			<!-- Keyboard and input -->
+			<key>allowPredictiveKeyboard</key>
+			<false/>
+			<key>allowAutoCorrection</key>
+			<false/>
+			<key>allowSpellCheck</key>
+			<false/>
+			<key>allowKeyboardShortcuts</key>
+			<false/>
+			<key>allowDefinitionLookup</key>
+			<false/>
+			<key>allowSpotlightInternetResults</key>
+			<false/>
+
+			<!-- Lock screen / notifications -->
+			<key>allowLockScreenControlCenter</key>
+			<false/>
+			<key>allowLockScreenNotificationsView</key>
+			<false/>
+			<key>allowLockScreenTodayView</key>
+			<false/>
+			<key>allowNotificationsModification</key>
+			<false/>
+			<key>allowPassbookWhileLocked</key>
+			<false/>
+
+			<!-- Device / passcode / identity -->
+			<key>allowPasscodeModification</key>
+			<false/>
+			<key>allowFingerprintModification</key>
+			<false/>
+			<key>allowFingerprintForUnlock</key>
+			<false/>
+			<key>allowEraseContentAndSettings</key>
+			<false/>
+			<key>allowWallpaperModification</key>
+			<false/>
+			<key>allowDeviceNameModification</key>
+			<false/>
+			<key>allowESIMModification</key>
+			<false/>
+			<key>allowVPNCreation</key>
+			<false/>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+
+			<!-- Connectivity -->
+			<key>allowPersonalHotspotModification</key>
+			<false/>
+			<key>allowAirPlayIncomingRequests</key>
+			<false/>
+			<key>allowAirPrint</key>
+			<false/>
+
+			<!-- Watch / Find My -->
+			<key>allowPairedWatch</key>
+			<false/>
+			<key>forcePairedWatchWristDetection</key>
+			<true/>
+			<key>allowFindMyFriendsModification</key>
+			<false/>
+			<key>allowFindMyDevice</key>
+			<false/>
+
+			<!-- Diagnostics -->
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowDiagnosticSubmissionModification</key>
+			<false/>
+
+			<!-- Block/hide built-in Apple apps (supervised devices only) -->
+			<key>blacklistedAppBundleIDs</key>
+			<array>
+				<string>com.apple.mobilesafari</string>
+				<string>com.apple.MobileSMS</string>
+				<string>com.apple.mobilemail</string>
+				<string>com.apple.mobilephone</string>
+				<string>com.apple.facetime</string>
+				<string>com.apple.camera</string>
+				<string>com.apple.mobileslideshow</string>
+				<string>com.apple.mobilenotes</string>
+				<string>com.apple.reminders</string>
+				<string>com.apple.calculator</string>
+				<string>com.apple.weather</string>
+				<string>com.apple.stocks</string>
+				<string>com.apple.news</string>
+				<string>com.apple.podcasts</string>
+				<string>com.apple.iBooks</string>
+				<string>com.apple.tips</string>
+				<string>com.apple.compass</string>
+				<string>com.apple.measure</string>
+				<string>com.apple.VoiceMemos</string>
+				<string>com.apple.Health</string>
+				<string>com.apple.Home</string>
+				<string>com.apple.shortcuts</string>
+				<string>com.apple.Magnifier</string>
+				<string>com.apple.gamecenter</string>
+				<string>com.apple.AppStore</string>
+				<string>com.apple.podcasts</string>
+				<string>com.apple.Music</string>
+				<string>com.apple.TV</string>
+				<string>com.apple.Passbook</string>
+				<string>com.apple.mobiletimer</string>
+				<string>com.apple.calculator</string>
+				<string>com.apple.Preferences</string>
+				<string>com.apple.mobilecal</string>
+				<string>com.apple.MobileAddressBook</string>
+				<string>com.apple.Maps</string>
+				<string>com.apple.findmy</string>
+				<string>com.apple.freeform</string>
+				<string>com.apple.Translate</string>
+				<string>com.apple.DocumentsApp</string>
+				<string>com.apple.mobileme.fmf1</string>
+				<string>com.apple.wallet</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Jailbreak Store</string>
+	<key>PayloadDescription</key>
+	<string>This will install the web clip for the jailbreak store to install apps via profile.</string>
+	<key>PayloadIdentifier</key>
+	<string>com.replit.strict-ios-features</string>
+	<key>PayloadOrganization</key>
+	<string>Personal iPhone Configuration</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2A5C2BA8-4B0A-4A8C-9B55-E1A1E17C5C66</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
